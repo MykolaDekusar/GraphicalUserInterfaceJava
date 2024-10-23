@@ -16,6 +16,12 @@ public class GraphicalUserInterface {
 		int eta= Integer.parseInt(JOptionPane.showInputDialog("Inseisci la tua età"));
 		System.out.println(eta);
 		JOptionPane.showMessageDialog(null,"Hai: "+ eta+ " anni");
+		//ora proviamo con un numero decimale
+		float altezza = Float.parseFloat(JOptionPane.showInputDialog("Inserisci la tua altezza"));
+		JOptionPane.showMessageDialog(null,"Sei alto: "+ altezza + "m");
+		//ora con un double
+		double peso= Double.parseDouble(JOptionPane.showInputDialog("Quanto pesi?"));
+		JOptionPane.showMessageDialog(null,"Pesi: "+peso);
 	}	
 
 }
