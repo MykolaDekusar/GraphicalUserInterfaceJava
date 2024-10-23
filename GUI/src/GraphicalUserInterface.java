@@ -1,9 +1,11 @@
+import javax.swing.JOptionPane;
 
 public class GraphicalUserInterface {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Basic GUI
 
+		String nome = JOptionPane.showInputDialog("Inserisci il tuo nome");
 	}
 
 }
